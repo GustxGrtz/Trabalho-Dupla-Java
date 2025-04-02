@@ -11,6 +11,8 @@ public class App {
 
         jogador.aumentarPontos(5);
 
+        jogador.subirNivel();
+
         System.out.println(jogador.exibirInfo());
     }
 }

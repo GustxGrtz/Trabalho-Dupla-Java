@@ -33,6 +33,7 @@ public class Jogador {
         this.pontuacao = scan.nextInt();
         System.out.println("Digite o nível do jogador: ");
         this.nivel = scan.nextInt();
+        scan.close();
     }
 
     public String getNome() {
